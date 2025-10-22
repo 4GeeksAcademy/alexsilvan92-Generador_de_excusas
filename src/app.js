@@ -1,5 +1,5 @@
 window.onload = function () {
-  var who = [
+  const who = [
     "El perro",
     "Mi abuela",
     "El cartero",
@@ -7,7 +7,7 @@ window.onload = function () {
     "El vecino",
     "Mi gato",
   ];
-  var action = [
+  const action = [
     "se comió", 
     "mojó", 
     "rompió", 
@@ -15,7 +15,7 @@ window.onload = function () {
     "perdió", 
     "aplastó",
   ];
-  var what = [
+  const what = [
     "mi tarea",
     "mi teléfono",
     "el cuaderno",
@@ -23,7 +23,7 @@ window.onload = function () {
     "mi almuerzo",
     "mi informe",
   ];
-  var when = [
+  const when = [
     "antes de clase",
     "ayer por la noche",
     "mientras dormía",
@@ -46,7 +46,7 @@ window.onload = function () {
       "."
     );
   }
-  var p = document.getElementById("excuse");
+  const p = document.getElementById("excuse");
   if (p) {
     p.innerText = generarExcusa();
   }
